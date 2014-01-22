@@ -1,0 +1,12 @@
+datasource:
+  riak:
+    host: 127.0.0.1
+    pb_port: 8087
+
+application:
+  default_poller_name: webpoller
+  metrics_handler_name: webrockit
+  check_runner: /opt/phantomjs/collectoids/webrockit-poller/webrockit-poller.rb
+  basic_auth:
+    user: admin
+    pass: admin
