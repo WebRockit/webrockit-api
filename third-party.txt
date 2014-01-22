@@ -1,0 +1,31 @@
+This document contains the list of Third Party Software included or downloaded upon using webrockit-checksync, along with the license information.
+
+Third Party Software may impose additional restrictions and it is the
+user's responsibility to ensure that they have met the licensing
+requirements and the relevant license of the Third Party
+Software they are using.
+
+Sinatra - https://github.com/sinatra/sinatra
+License: MIT
+Reference: https://github.com/sinatra/sinatra/blob/master/LICENSE
+
+Riak Ruby Client - https://github.com/basho/riak-ruby-client
+License: Apache 2.0
+Reference: https://github.com/basho/riak-ruby-client/blob/master/LICENSE
+
+Jruby - https://github.com/jruby/jruby
+License: CPL/GPL/LGPL
+Reference: https://github.com/jruby/jruby/blob/master/COPYING
+Reference: https://github.com/jruby/jruby/blob/master/LICENSE.RUBY
+
+Warbler - https://github.com/jruby/warbler
+License: MIT
+Reference: https://github.com/jruby/warbler/blob/master/LICENSE.txt
+
+Httparty - https://github.com/jnunemaker/httparty
+License: MIT
+Reference: https://github.com/jnunemaker/httparty/blob/master/MIT-LICENSE
+
+Puma - https://github.com/puma/puma
+License: GPL
+Reference: https://github.com/puma/puma/blob/master/LICENSE
