@@ -37,7 +37,7 @@ module CheckHelper
           'type'     => 'metric',
           'handlers' => ["#{@config['application']['metrics_handler_name']}"],
           'command'  => command,
-          'interval' => create_hash['interval'],
+          'interval' => create_hash['interval'].to_i,
           'subscribers' => pollers | sensutags
         }
       }
